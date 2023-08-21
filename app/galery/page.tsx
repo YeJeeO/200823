@@ -1,6 +1,6 @@
 import { title } from "@/components/primitives";
 
-export default function AboutPage() {
+export default function GaleryPage() {
 	return (
 		<div>
 			<h1 className={title({ color: "violet" })}>Наша студия</h1><br/>
