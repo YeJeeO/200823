@@ -1,23 +1,23 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
+	name: "DanceWebProject",
 	description: "Make beautiful websites regardless of your design experience.",
 	navItems: [
 		{
-			label: "Home",
+			label: "О нас",
 			href: "/",
 		},
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Педагоги",
+      href: "/coach",
     },
     {
-      label: "Pricing",
+      label: "Расписание",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Мероприятия",
       href: "/blog",
     },
     {
@@ -27,12 +27,12 @@ export const siteConfig = {
 	],
 	navMenuItems: [
 			{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Главная",
+			href: "/",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+			label: "Расписание",
+			href: "/pricing",
 		},
 		{
 			label: "Logout",
