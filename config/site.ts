@@ -14,7 +14,7 @@ export const siteConfig = {
     },
     {
       label: "Расписание",
-      href: "/pricing",
+      href: "/timetable",
     },
     {
       label: "Мероприятия",
