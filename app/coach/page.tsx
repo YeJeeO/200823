@@ -1,7 +1,7 @@
 import React from "react";
 import { title} from "@/components/primitives";
 import Image from 'next/image';
-import coach from '../public/coach1.jpg';
+import coach from '@/public/coach1.jpg'; 
 
 export default function CoachPage() {
 	return (
