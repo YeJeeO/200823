@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+'use client';
 import { title } from "@/components/primitives";
 import Image from 'next/image';
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
@@ -12,7 +13,7 @@ export default function TimetablePage() {
     style={{objectFit: 'cover'}}
     fill={true}
     />
-    <Table>
+    <Table fullWidth={true}>
       <TableHeader>
         <TableColumn>NAME</TableColumn>
         <TableColumn>ROLE</TableColumn>
