@@ -1,5 +1,3 @@
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
-
 export default function TimetableLayout({
 	children,
 }: {
@@ -7,9 +5,10 @@ export default function TimetableLayout({
 }) {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			 <Table isStriped aria-label="Example static collection table">
+			<div className="inline-block max-w-lg text-center justify-center">
 				{children}
-			</Table>
+			</div>
 		</section>
 	);
 }
+

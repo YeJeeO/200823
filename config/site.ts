@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "DanceWebProject",
-	description: "Make beautiful websites regardless of your design experience.",
+	description: "With LOVE",
 	navItems: [
 		{
 			label: "О нас",
@@ -18,7 +18,7 @@ export const siteConfig = {
     },
     {
       label: "Мероприятия",
-      href: "/blog",
+      href: "/event",
     },
     {
       label: "Галерея",
@@ -32,7 +32,7 @@ export const siteConfig = {
 		},
 		{
 			label: "Расписание",
-			href: "/pricing",
+			href: "/timetable",
 		},
 		{
 			label: "Logout",
@@ -41,9 +41,8 @@ export const siteConfig = {
 	],
 	links: {
 		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
+			docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+    sponsor: "https://vk.com/kimtime"
 	},
 };

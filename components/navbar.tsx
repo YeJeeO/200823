@@ -13,6 +13,8 @@ import { link as linkStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
+import Image from 'next/image';
+import logo from '@/public/logo_mini.jpg'; 
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
@@ -29,7 +31,14 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-											<p className="font-bold text-inherit">KimTime</p>
+											{/* <p className="font-bold text-inherit">KimTime</p> */}
+											<Image
+        src={logo}
+        alt="icop"
+        placeholder="blur"
+  width="60"
+ 
+        />
 					</NextLink>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -55,16 +64,11 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-{/* 				<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
-					</Link> */}
+
 					<ThemeSwitch />
 				</NavbarItem>
 								<NavbarItem className="hidden md:flex">
-{/* 					<Button
+					<Button
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
@@ -72,8 +76,8 @@ export const Navbar = () => {
 						startContent={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
 					>
-						Sponsor
-					</Button> */}
+						Our Group
+					</Button>
 				</NavbarItem>
 			</NavbarContent>
 

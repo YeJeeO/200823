@@ -7,6 +7,7 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
+
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
@@ -51,8 +52,9 @@ export default function RootLayout({
 								href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
 								title="nextui.org homepage"
 							>
-								<span className="text-default-600">Powered by</span>
-								<p className="text-primary">NextUI</p>
+								<span className="text-default-600">All rights reseved</span>
+								<p className="text-primary">With big love</p>
+							
 							</Link>
 						</footer>
 					</div>
