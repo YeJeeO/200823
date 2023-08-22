@@ -11,7 +11,27 @@ export default function TimetablePage() {
     placeholder="blur"
     style={{objectFit: 'cover'}}
     fill={true}
-    /></div>
+    />
+    <Table>
+      <TableHeader>
+        <TableColumn>NAME</TableColumn>
+        <TableColumn>ROLE</TableColumn>
+       
+      </TableHeader>
+      <TableBody>
+        <TableRow key="1">
+          <TableCell>Tony </TableCell>
+          <TableCell>CEO</TableCell>
+  
+        </TableRow>
+        <TableRow key="2">
+          <TableCell> Reichert</TableCell>
+          <TableCell>CEO</TableCell>
+  
+        </TableRow>
+        </TableBody>
+    </Table>
+    </div>
 
   )
 

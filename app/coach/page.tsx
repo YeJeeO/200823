@@ -1,8 +1,8 @@
 import React from "react";
 import { title, subtitle} from "@/components/primitives";
 import Image from 'next/image';
-import coach from '@/public/coach1.jpg'; 
-import coachTwo from '@/public/coach2.jpg'; 
+import coach from '@/public/9.jpg'; 
+import coachTwo from '@/public/coach1.jpg'; 
 
 export default function CoachPage() {
 	return (
@@ -15,6 +15,7 @@ export default function CoachPage() {
 		   src={coach}
             alt="icop"
             placeholder="blur"
+			height="350"
               />
 		<h2 className={subtitle({ class: "mt-4" })}>Образование:</h2>
 		<p className="text-small text-default-500">Новосибирский Государственный Педагогический Университет. Опыт работы более 10 лет.
@@ -32,6 +33,8 @@ export default function CoachPage() {
 		  <Image src={coachTwo}
             alt="icop"
             placeholder="blur"
+			height="400"
+			className=" justify-center"
               />
 			<h2 className={subtitle({ class: "mt-4" })}>Образование:</h2>
 		<p className="text-small text-default-500"> Новосибирский Государственный Педагогический Университет. Опыт работы более 10 лет.
