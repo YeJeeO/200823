@@ -1,3 +1,5 @@
+'use client';
+
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -31,7 +33,7 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-											{/* <p className="font-bold text-inherit">KimTime</p> */}
+											
 											<Image
         src={logo}
         alt="icop"
@@ -78,14 +80,13 @@ export const Navbar = () => {
 					>
 						Our Group
 					</Button>
+					
+					
 				</NavbarItem>
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
-					<GithubIcon className="text-default-500" />
-				</Link>
-				<ThemeSwitch />
+							<ThemeSwitch />
 				<NavbarMenuToggle />
 			</NavbarContent>
 
