@@ -3,13 +3,13 @@
 import { title } from "@/components/primitives";
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
 import Image from 'next/image';
-import one from '../../public/1.jpg'; 
-import two from '../../public/2.jpg'; 
-import three from '../../public/3.jpg'; 
-import four from '../../public/4.jpg'; 
-import five from '../../public/5.jpg';
-import six from '../../public/6.jpg'; 
-import seven from '../../public/7.jpg';  
+import one from '../../img/1.jpg'; 
+import two from '../../img/2.jpg'; 
+import three from '../../img/3.jpg'; 
+import four from '../../img/4.jpg'; 
+import five from '../../img/5.jpg';
+import six from '../../img/6.jpg'; 
+import seven from '../../img/7.jpg';  
 
 export default function GaleryPage() {
   return (<div className="flex flex-col">

@@ -16,7 +16,7 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 import Image from 'next/image';
-import logo from '../public/logo_mini.jpg'; 
+import logo from '../img/logo_mini.jpg'; 
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
