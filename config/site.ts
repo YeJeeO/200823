@@ -49,8 +49,7 @@ export const siteConfig = {
 		
 	],
 	links: {
-		github: "https://github.com/YeJeeO",
-		docs: "https://nextui.org",
+		docs: "https://github.com/YeJeeO",
         sponsor: "https://vk.com/kimtime"
 	},
 };
