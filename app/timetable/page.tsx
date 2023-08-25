@@ -3,7 +3,7 @@
 import { title } from "@/components/primitives";
 import Image from 'next/image';
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
-import grath from '@/public/grath.jpg'; 
+import grath from '../../img/grath.jpg'; 
 
 export default function TimetablePage() {
   return (<div> 

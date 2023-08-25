@@ -2,8 +2,8 @@
 import { title, subtitle} from "@/components/primitives";
 import {Card, CardHeader, CardBody} from "@nextui-org/react";
 import Image from 'next/image';
-import coach from '@/public/9.jpg'; 
-import coachTwo from '@/public/coach1.jpg'; 
+import coach from '../../img/9.jpg'; 
+import coachTwo from '../../img/coach1.jpg'; 
 
 export default function CoachPage() {
 	return (
