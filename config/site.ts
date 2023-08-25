@@ -31,18 +31,26 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
+			label: "Педагоги",
+			href: "/coach",
+		  },
+		  {
 			label: "Расписание",
 			href: "/timetable",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+		  },
+		  {
+			label: "Мероприятия",
+			href: "/event",
+		  },
+		  {
+			label: "Галерея",
+			href: "/galery",
+		  }
+		
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
-			docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://vk.com/kimtime"
+		github: "https://github.com/YeJeeO",
+		docs: "https://nextui.org",
+        sponsor: "https://vk.com/kimtime"
 	},
 };
