@@ -2,7 +2,7 @@
 import { title } from "@/components/primitives";
 import Image from 'next/image';
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
-import lOgo from '../../img/LOGO.jpg'; 
+import lOgo from '../../img/logo.jpg'; 
 import showOne from '../../img/show1.jpg';
 import showTwo from '../../img/show2.jpg';
 import showThree from '../../img/show3.jpg';

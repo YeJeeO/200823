@@ -6,8 +6,8 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import Image from 'next/image';
-import studiaOne from '../img/Studia 1.jpg'; 
-import studiaTwo from '../img/Studia 2.jpg'; 
+import studiaOne from '../img/studia1.jpg'; 
+import studiaTwo from '../img/studia2.jpg'; 
 import grant from '../img/64.jpg'; 
 
 export default function Home() {
