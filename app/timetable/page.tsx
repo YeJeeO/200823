@@ -16,7 +16,7 @@ export default function TimetablePage() {
     fill={true}
     />
     
-    <Table isStriped aria-label="Example static collection table">
+    <Table isStriped aria-label="collection table">
       <TableHeader>
         <TableColumn>ВРЕМЯ</TableColumn>
         <TableColumn>ПН</TableColumn>
