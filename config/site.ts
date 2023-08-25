@@ -28,15 +28,15 @@ export const siteConfig = {
 	navMenuItems: [
 		{
 			label: "Главная",
-			href: 'https://200823-yejeeo.vercel.app/',
+			href: '/',
 		},
 		  {
 			label: "Галерея",
-			href: 'https://200823-yejeeo.vercel.app/galery',
+			href: '/galery',
 		  },
 		  {
 			label: "Расписание",
-			href: "https://200823-yejeeo.vercel.app/timetable",
+			href: "/timetable",
 		  },
 		
 	],
