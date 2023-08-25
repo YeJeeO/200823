@@ -26,30 +26,21 @@ export const siteConfig = {
     }
 	],
 	navMenuItems: [
-			{
-			label: "Главная",
-			href: "/",
-		},
 		{
-			label: "Педагоги",
-			href: "/coach",
+			label: "Главная",
+			href: 'https://200823-yejeeo.vercel.app/',
+		},
+		  {
+			label: "Галерея",
+			href: 'https://200823-yejeeo.vercel.app/galery',
 		  },
 		  {
 			label: "Расписание",
-			href: "/timetable",
+			href: "https://200823-yejeeo.vercel.app/timetable",
 		  },
-		  {
-			label: "Мероприятия",
-			href: "/event",
-		  },
-		  {
-			label: "Галерея",
-			href: "/galery",
-		  }
 		
 	],
 	links: {
-		docs: "https://github.com/YeJeeO",
         sponsor: "https://vk.com/kimtime"
 	},
 };

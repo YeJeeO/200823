@@ -17,13 +17,8 @@ import NextLink from "next/link";
 import clsx from "clsx";
 import Image from 'next/image';
 import logo from '../img/logo_mini.jpg'; 
-
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-		GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon
-} from "@/components/icons";
+import { HeartFilledIcon } from "@/components/icons";
 
 
 export const Navbar = () => {
@@ -78,7 +73,7 @@ export const Navbar = () => {
 						startContent={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
 					>
-						Our Group
+						Our VKGroup
 					</Button>
 					
 					
