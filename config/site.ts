@@ -29,15 +29,9 @@ export const siteConfig = {
 		{
 			label: "Главная",
 			href: '/',
-		},
-		  {
-			label: "Галерея",
-			href: '/galery',
-		  },
-		  {
-			label: "Расписание",
-			href: "/timetable",
-		  },
+		}
+		 
+	
 		
 	],
 	links: {

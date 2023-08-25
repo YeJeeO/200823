@@ -102,6 +102,7 @@ export const Navbar = () => {
 							>
 								{item.label}
 							</Link>
+							
 						</NavbarMenuItem>
 					))}
 				</div>
