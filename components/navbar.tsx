@@ -90,19 +90,22 @@ export const Navbar = () => {
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
-								color={
-									index === 2
-										? "primary"
-										: index === siteConfig.navMenuItems.length - 1
-										? "danger"
-										: "foreground"
-								}
-								href="/"
-								size="lg"
+														href='/'
 							>
-								{item.label}
+						{item.label1}
+							</Link>
+							<Link
+								href="/event"
+								
+							>
+					{item.label2}
 							</Link>
 							
+							<Link 								
+								href= "/timetable"
+															>
+					{item.label3}
+							</Link>
 						</NavbarMenuItem>
 					))}
 				</div>

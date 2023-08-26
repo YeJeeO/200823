@@ -27,9 +27,17 @@ export const siteConfig = {
 	],
 	navMenuItems: [
 		{
-			label: "Главная",
+			label1: "Главная",
 			href: '/',
-		}
+		},
+    {
+			label2: "Мероприятия",
+      href: "/event",
+		},
+    {
+      label3: "Расписание",
+      href: "/timetable",
+    },
 		 
 	
 		
