@@ -106,6 +106,11 @@ export const Navbar = () => {
 															>
 					{item.label3}
 							</Link>
+							<Link 								
+								href= "/coach"
+															>
+					{item.label4}
+							</Link>
 						</NavbarMenuItem>
 					))}
 				</div>

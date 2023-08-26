@@ -30,6 +30,7 @@ export const siteConfig = {
 			label1: "Главная",
 			href: '/',
 		},
+    
     {
 			label2: "Мероприятия",
       href: "/event",
@@ -38,7 +39,10 @@ export const siteConfig = {
       label3: "Расписание",
       href: "/timetable",
     },
-		 
+    {
+      label4: "Педагоги",
+      href: "/coach",
+    },
 	
 		
 	],
